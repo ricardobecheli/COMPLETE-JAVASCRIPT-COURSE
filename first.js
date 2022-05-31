@@ -1,0 +1,1 @@
+console.log("2 important concepts: Code Sentences and Code Blocks");
