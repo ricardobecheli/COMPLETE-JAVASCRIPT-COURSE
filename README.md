@@ -4,6 +4,8 @@
 ## We installed "Code Runner"
 Code Runner simulates a terminal inside VS Code.
 
+There's a "play" icon at the top of the coding area.
+
 ## Code Sentences
 The shortest code snippet. Like phrases, in English
 
