@@ -7,7 +7,7 @@ Code Runner simulates a terminal inside VS Code.
 There's a "play" icon at the top of the coding area.
 
 ## Code Sentences
-The shortest code snippet. Like phrases, in English
+The shortest code snippet. Like phrases, in English. The computer undesrstands the phrase even if broken into several lines, like one word each line. (But who wants such a confused code?).
 
 Example: console.log("2 important concepts: Code Sentences and Code Blocks");
 
