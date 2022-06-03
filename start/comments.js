@@ -3,9 +3,17 @@
 // One line comments are mede by double slash.
 
 
-console.log(1+3*10);
+{
+    console.log(1 + 3 * 10);
+    console.log(1 + 3 * 10);
+    console.log(1 + 3 * 10);
+    console.log(1 + 3 * 10);
+    console.log(1 + 3 * 10);
+}
 
-console.log("Text always between double quotes or..."); //console.log('Or simple quotes');
+console.log("Text always between double quotes or...");
+
+//console.log('Or simple quotes');
 
 
 //the above live of code was neutralized (not executed) by the comment.
