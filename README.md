@@ -16,3 +16,13 @@ The semicolon is optional at the end of JS sentence.
 ## Code Blocks
 A group of code sentences. Like a paragraph, in English.
 
+## Good practices 1
+
+To define good names for:
+
+1. Folders
+2. Files
+3. Variables
+
+etc
+
