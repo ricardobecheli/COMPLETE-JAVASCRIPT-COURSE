@@ -11,3 +11,4 @@ let preco = custo + imposto
     console.log(preco-custo);
 
 }
+
