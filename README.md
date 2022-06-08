@@ -30,3 +30,11 @@ etc
 
 Now we will organize our corse's project.
 
+## Created a new folder:
+
+### js-exercises
+
+js-exercises is inside the couse's main folder (COMPLETE-JAVASCRIPT-COURSE).
+
+
+
