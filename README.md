@@ -26,3 +26,7 @@ To define good names for:
 
 etc
 
+# After the introduction:
+
+Now we will organize our corse's project.
+
