@@ -36,5 +36,9 @@ Now we will organize our corse's project.
 
 js-exercises is inside the couse's main folder (COMPLETE-JAVASCRIPT-COURSE).
 
+I am only watching some classes, listening instead of writing in VS Code.
+
+I prefer this way then go back and do excercises IF NECESSARY because the lessons are too short.
+
 
 
