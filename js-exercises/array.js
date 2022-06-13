@@ -26,7 +26,7 @@ console.log(notasMensais)  // displays the new array values
 
 // 2 - "delete" thevalue in thwe specified order
 
-delete notasMensais[1] // will delete the "8.9" bvut the space of order 1 keeps empty. Look:
+delete notasMensais[1] // will delete the "8.9" but the space of order 1 keeps empty. Look:
 // It displays "<1 empty item>" in the "1" place.
 console.log(notasMensais)
 
