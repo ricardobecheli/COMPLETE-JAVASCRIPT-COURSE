@@ -38,7 +38,9 @@ Now we will organize our corse's project.
 
 I am only watching some classes, listening instead of writing in VS Code.
 
-I prefer this way then go back and do excercises IF NECESSARY because the lessons are too short.
+I prefer this way then go back and do excercises IF NECESSARY* because the lessons are too short.
+
+Oh yes indeed!... it was really necessary. If you don't write you can easily forget.
 
 
 
