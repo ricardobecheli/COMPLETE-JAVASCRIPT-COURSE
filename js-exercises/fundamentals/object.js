@@ -1,23 +1,39 @@
-// The basic of objects in this lesson. Literal notations.
-
-// How to create objects in JavaScript in a literal way.
-
 /*
+The basic of objects in this lesson: 
+
 Object Literals in JavaScript:
-These come up in interviews more than you think!!!
-*/ 
+        These come up in interviews more than you think!!!
 
+Literal:
+        Any fixed value in source code.
 
-/*
-In computer science, a literal is a notation for representing a fixed value in source code.
+The simplest way to create an OBJECT LITERAL is:
+        To assign an empty object to a variable. For example: var foo = {}; That is it. In that one line, you have created an object literal. Now, that object is empty. 
 
-There seems to be a bit of mystery surrounding the subject of JavaScript Object Literals. It is actually a simple concept and it’s easy to get started. There is a great deal of depth to the subject, but creating your first JavaScript Object Literal does not need to be complicated.
+OBJECTS have two kinds of “things”:
+        Properties and methods.
 
-The simplest way to create an object literal is to assign an empty object to a variable. For example: var foo = {}; That is it. In that one line, you have created an object literal.
+PROPERTY:
+        Any valid JavaScript type (i.e. string, number, boolean, function, array, etc).
 
-Now, that object is empty. Objects have two kinds of “things”: properties and methods. A property can be any valid JavaScript type (i.e. string, number, boolean, function, array, etc). A method is essentially a property of the object to which you have assigned an anonymous function. So the property is now equal to a function. It is still a property of the object, but because it “does” something, we now call it a “method”.
-
-
-
-
+METHOD:
+        A property of the object to which you have assigned an anonymous function.
+        So the property is now equal to a function.
+        It is still a property of the object, but because it “does” something, we now call it a “method”.
 */
+
+const prod1 = {}    // Empty OBJECT: the braces with nothing inside.
+                    //prod1 is a VARIABLE.
+
+        // There can be objects inside objects. ie: products - kind of product - kind ID etc.
+
+prod1.name = 'Ultra Mega Cell Phone'
+        /* "name" was now dynamically created inside the object.
+        "name" is an ATTRIBUTE and can be any type:string (like "name"), boolean, number, function, etc.*/
+
+prod1.price = 345.67
+        // "price" is another attribute. BOTH now belong to prod1.
+
+console.log(prod1)
+        // Displays: { name: 'Ultra Mega Cell Phone', price: 345.67 }
+
