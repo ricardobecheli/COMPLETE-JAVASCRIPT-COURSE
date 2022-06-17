@@ -1,4 +1,9 @@
 /*
+
+THIS IS NOT A REGULAR CODE BUT LESSON REMARKS.
+
+OBJECT is a 'collection' of braces and value.
+
 The basic of objects in this lesson: 
 
 Object Literals in JavaScript:
@@ -34,6 +39,41 @@ prod1.name = 'Ultra Mega Cell Phone'
 prod1.price = 345.67
         // "price" is another attribute. BOTH now belong to prod1.
 
-console.log(prod1)
-        // Displays: { name: 'Ultra Mega Cell Phone', price: 345.67 }
+prod1.category = 'Smart Phones'
+
+// console.log(prod1)
+                /* Displays:
+                
+                {
+        name: 'Ultra Mega Cell Phone',
+        price: 345.67,
+        category: 'Smart Phones'
+                }
+
+                */
+
+// It's called setting attribute values dinamically.
+
+// I guess it's a hint of CRUD possibility at the backend through JavaScript.
+
+// Note that the displayed are comma separated values (CSV)!
+
+prod1.mobile = true
+
+// console.log(prod1) // console.log #2:
+
+
+// NOW MAKING IT DIRECTLY:
+
+
+const prod2 = {
+        name: 'T Shirt',
+        price: 9.99,
+        unisex: true
+}
+
+console.log(prod2)
+
+//There can be a nested structure of objects = Objects inside objects. As many as needed.
+// Includind functions.
 
