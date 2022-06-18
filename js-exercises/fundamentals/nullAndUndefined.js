@@ -7,7 +7,9 @@ const second = first
 second.name = 'Samba'
             console.log(first)
 
-            /*  Now First pointed to the same address as Second. The equal sign is 2-way.
+            /*  
+                Now First pointed to the same address as Second. The equal sign is 2-way.
+
                 Second = First  and  First = Second
             */
 
@@ -16,3 +18,32 @@ second.name = 'Samba'
                 { name: 'Teste' }
                 { name: 'Samba' }
             */
+
+console.log("Blank row")
+console.log("The attributed in no longer an object. Now it's a primitive type, a number.")
+                
+let c = 3
+let d = c
+console.log(c, d)
+
+console.log(c + ", "+ d + ". Concatenated with comma and period.")
+
+
+console.log("Now increasing one numeric unit to d by the method d++:")
+
+
+d++
+console.log(d) // Supposed to display "4" and it did.
+console.log("We have d=3, so d++ " + "= " + d) // Supposed to display "4" and it did.
+
+console.log("Now let's check c, just in case:")
+console.log(c)
+console.log("c remains the same.")
+
+
+
+
+
+
+
+
