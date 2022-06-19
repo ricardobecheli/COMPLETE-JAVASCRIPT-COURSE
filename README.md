@@ -42,5 +42,11 @@ I prefer this way then go back and do excercises IF NECESSARY* because the lesso
 
 Oh yes indeed!... it was really necessary. If you don't write you can easily forget.
 
+# FOR THE SAKE OF SPEED IN THE COURSE:
+
+### I'll no longer use this readme.
+
+Remarks are in the code itself.
+
 
 
