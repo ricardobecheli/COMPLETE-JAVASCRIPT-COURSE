@@ -20,10 +20,10 @@ second.name = 'Samba'
             */
 
 console.log("Blank row")
-console.log("The attributed in no longer an object. Now it's a primitive type, a number.")
+console.log("The attributed in no longer an object. Now it's a primitive type*, a number.")
                 
 let c = 3
-let d = c
+let d = c// * IN THIS CASE d IS A COPY OF c. In the case of objects they POINT to the same ADDRESS.
 console.log(c, d)
 
 console.log(c + ", "+ d + ". Concatenated with comma and period.")
@@ -40,7 +40,13 @@ console.log("Now let's check c, just in case:")
 console.log(c)
 console.log("c remains the same.")
 
+// In JS we can attribute values by:
 
+// PRIMITIVE TYPES of the language (they point to its declared primitive value)
+
+// or
+
+// REFERENCE, when we work with objects and functions (they point to the same place in memory)
 
 
 
