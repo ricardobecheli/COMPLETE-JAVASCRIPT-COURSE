@@ -34,6 +34,7 @@ It will generate a "TypeError" problem.
 */
 
         // The most indicated to avoid this problem is to:
-        // Always have a standard value associated to a variable you want to be empty.
-        // "Empty" could be a good idea?
+        // Always have a standard (NEUTRAL) value associated to a variable you want to be empty.
+        // "Empty" could be a good idea? For strings, maybe yes.
+        // And 0 (zero) could be a good idea for numbers.
 
