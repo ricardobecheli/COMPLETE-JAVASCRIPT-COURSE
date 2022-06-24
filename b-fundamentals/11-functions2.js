@@ -33,3 +33,9 @@ console.log(sum(6, 7))
 const minus = (a, b) => a - b
 
 console.log(minus(10, 20))
+
+
+// In a funcion has only 1 parameter, the first parenteses are not required:
+
+const print2 = a => console.log(a)
+print2("Far out, man!")
