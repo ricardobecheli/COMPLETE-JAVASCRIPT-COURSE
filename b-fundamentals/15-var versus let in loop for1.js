@@ -9,6 +9,7 @@ console.log("i after and outside the loop = ", i)
 
 
 // NOW LET:
+console.log("NOW LET." + " Look: Untill here below, ok. Displayed from 0 to 9")
 
 for (let w = 0; w < 10; w++) {
     console.log(w)
@@ -16,4 +17,6 @@ for (let w = 0; w < 10; w++) {
 // Untill here, ok. Displayed from 0 to 9.
 
 console.log("w after and outside the loop = ", w)
-// Here w is not defined. ReferenceError. OK! Expected because let has local scope.
+/* Here w is NOT DEFINED. ReferenceError. OK!
+Expected because let has local scope and is not recognized outside here.
+*/
