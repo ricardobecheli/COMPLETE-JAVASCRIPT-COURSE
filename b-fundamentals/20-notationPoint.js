@@ -10,13 +10,16 @@ https://www.youtube.com/watch?v=o5qceuQs34M
 https://www.youtube.com/watch?v=b1aG-l1H6Ns
 */
 
-console.log("Now it's just a connstant or varible")
+console.log("The object is a connstant or varible")
 console.log('BLANK ROW 1')
 
 
         const obj1 = {}
-        obj1.name = 'BallNoMatterIfNamedWithDot'
-        obj1['name'] = 'renamedWithBracketsBecauseItsTheSameObject'
+        obj1.name = 'FIRST GIVEN NAME: BallNoMatterIfNamedWithDot'
+        console.log(obj1.name)
+        // NAME was not there. This ATTRIBUTE is being created dynamically now.
+        obj1['name'] = 'now renamed With Brackets Because Its The Same Object. Dot or brackets make the same result'
+        // "this row and the above are equivalents. Dot or brackets make the same result".
         console.log(obj1.name)
 
 console.log('BLANK ROW 2')
