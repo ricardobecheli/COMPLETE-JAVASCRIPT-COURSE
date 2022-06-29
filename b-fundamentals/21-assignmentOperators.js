@@ -13,4 +13,11 @@ console.log(`a = ${a}, b = ${b}`)
 
 b += a // b = b + a
 console.log(a, b)
-console.log(`a = ${a}, b = ${b}`)
+console.log(`a = ${a} and b = ${b} (the previous 3 +7 from a). This was made by the operator +=`)
+
+console.log("BLANK LINE")
+
+b += a
+console.log(b)
+
+
