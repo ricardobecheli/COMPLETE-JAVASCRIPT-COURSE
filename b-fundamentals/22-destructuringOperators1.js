@@ -1,3 +1,18 @@
+ /* 
+    I want to have access to 1 or more of these "internal" variables: nome, age, etc.
+    But they're inside an object (this lesson) or an array (next lesson).
+
+    You could say:
+
+    - Easy. Just use the dot notation, as follows:
+
+            let nome = person.nome
+            const age = person.age
+
+    Ok, that is the standard way.
+
+    But now we're gonna use the destructuring operator, a simplified way to do the same.
+ */
 const person = {
     nome: "Ana",
     age: 21,
