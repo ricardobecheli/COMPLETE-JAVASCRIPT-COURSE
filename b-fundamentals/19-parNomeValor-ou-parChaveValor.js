@@ -35,3 +35,14 @@ const Client = {
     }
 }
 console.log(Client)  // NESTED. | Lexical scope or context 3.
+
+
+console.log("BLANK ROW 3")
+
+
+let dataClient = {
+    name: 'Pedro',
+    age: 32,
+    weight: 90,
+}
+console.table(dataClient) /// LOOK AT THAT!!! console.table
