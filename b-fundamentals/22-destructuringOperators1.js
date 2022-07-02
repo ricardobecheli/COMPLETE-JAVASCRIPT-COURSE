@@ -54,6 +54,10 @@ console.log(engineering, chemistryGrade, cooking, tvSetWhatever)
 Note:
 tvSetWhatever is undefined, not error, because it's inside an existent "parent" object variable or const.
 
+In other words:
+The path from the parent object to the child variable/const must bewell defined.
+Only the LAST item can be undefined.
+
 If you try to extract
     const { f1, soccer } = games
 Will resul in error, because there´s no "games" here.
