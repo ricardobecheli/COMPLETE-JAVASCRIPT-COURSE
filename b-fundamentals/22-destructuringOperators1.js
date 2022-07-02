@@ -12,6 +12,8 @@
     Ok, that is the standard way.
 
     But now we're gonna use the destructuring operator, a simplified way to do the same.
+
+    Note: person here is an OBJECT.
  */
 const person = {
     nome: "Ana",
@@ -43,3 +45,16 @@ const { sobrenome, bemHumorada = true, outraConst = null} = person
 console.log(sobrenome, bemHumorada, outraConst) // undefined true null
 // Any other thing but undefined makes clear that someone has given prevoius attention to that constant or variable.
 
+const {courses: {engineering, chemistryGrade, cooking, tvSetWhatever}} = person
+
+console.log(engineering, chemistryGrade, cooking, tvSetWhatever)
+// undergraduate 10 null undefined
+
+/*
+Note:
+tvSetWhatever is undefined, not error, because it's inside an existent "parent" object variable or const.
+
+If you try to extract
+    const { f1, soccer } = games
+Will resul in error, because there´s no "games" here.
+*/
