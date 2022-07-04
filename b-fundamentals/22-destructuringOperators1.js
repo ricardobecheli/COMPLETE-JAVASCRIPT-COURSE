@@ -1,4 +1,5 @@
- /* 
+ /*  DESTRUCTURING AN OBJECT {}
+ 
     I want to have access to 1 or more of these "internal" variables: nome, age, etc.
     But they're inside an object (this lesson) or an array (next lesson).
 
