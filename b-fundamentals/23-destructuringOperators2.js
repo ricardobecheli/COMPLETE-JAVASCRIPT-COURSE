@@ -65,8 +65,9 @@ console.log(rest) // ['p', 'q', 'r'] this is the SPREAD OPERATOR
 const newArray = [...alphabet, ...letters]
 console.log(newArray) // OK, everybody logged!
 
-// But thisd is not entirely useful for arrays
-// as we can also do the following:
+            // "But this is not entirely useful for arrays"
+            // "as we can also do the following:"
 
-const veryNewArray = alphabet.concat(letters)
+const veryNewArray = alphabet.concat(letters) // More practical?
 console.log(veryNewArray)
+
