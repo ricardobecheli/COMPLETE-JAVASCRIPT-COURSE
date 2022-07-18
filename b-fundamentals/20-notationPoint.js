@@ -2,7 +2,7 @@
 1) Make some examples with const.
 2) Create a funcion;
 3) Define / create dynamically an internal attibute of this function;
-4) Access it using the poit. Access the MEMBERS. Create attributes and/or funcions.
+4) Access it using the point. Access the MEMBERS. Create attributes and/or funcions.
 5) BRACKETS CAN DO IT TOO.
 
 Teacher's explanation very complicated: Going into other subjects...
@@ -24,6 +24,10 @@ console.log('BLANK ROW 1')
         obj1['name'] = 'now renamed With Brackets Because Its The Same Object. Dot or brackets make the same result'
         // "this row and the above are equivalents. Dot or brackets make the same result".
         console.log(obj1.name)
+        console.log(typeof obj1.name)
+        obj1.name = 1
+        console.log(obj1.name)  // THE CONSTANT HERE IS THE OBJECT "obj1", NOT ITS ATTRIBUTES, LIKE "name", which can bve changed as desired.
+        
 
 console.log('BLANK ROW 2')
 
