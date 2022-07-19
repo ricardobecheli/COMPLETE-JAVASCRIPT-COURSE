@@ -26,7 +26,7 @@ console.log('BLANK ROW 1')
         console.log(obj1.name)
         console.log(typeof obj1.name)
         obj1.name = 1
-        console.log(obj1.name)  // THE CONSTANT HERE IS THE OBJECT "obj1", NOT ITS ATTRIBUTES, LIKE "name", which can bve changed as desired.
+        console.log(obj1.name)  // THE CONSTANT HERE IS THE OBJECT "obj1", NOT ITS ATTRIBUTES, LIKE "name", which can be changed as desired.
         
 
 console.log('BLANK ROW 2')
@@ -37,6 +37,8 @@ console.log('BLANK ROW 2')
             aptNumber: (5*2-5)**2
         }
         console.log(obj2)
+        console.log(obj2.nome)
+
 
 console.log('BLANK ROW 3')
 
@@ -48,3 +50,5 @@ function Obj(name) {
 
 const obj3 = new Obj('Chair')
 console.log(obj3)
+console.log(obj3.name)
+
