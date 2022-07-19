@@ -46,9 +46,13 @@ console.log("Now it's a function and an Object")
 
 function Obj(name) {
     this.name = name // name will become public = visible outside the function. will see this later.
+    this.exec = function () {
+        console.log("Formula 1, 2 and 3")
+    }
 }
 
 const obj3 = new Obj('Chair')
 console.log(obj3)
 console.log(obj3.name)
+obj3.exec()
 
