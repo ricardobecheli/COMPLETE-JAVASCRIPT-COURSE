@@ -45,7 +45,8 @@ console.log('BLANK ROW 3')
 console.log("Now it's a function and an Object")
 
 function Obj(name) {
-    this.name = name // name will become public = visible outside the function. will see this later.
+    this.name = name // name will become public/visible out of the function. will see this later.
+    // Now an embeded function
     this.exec = function () {
         console.log("Formula 1, 2 and 3")
     }
