@@ -17,43 +17,51 @@ console.log("The object is a connstant or varible")
 console.log('BLANK ROW 1')
 
 
-        const obj1 = {}
-        obj1.name = 'FIRST GIVEN NAME: BallNoMatterIfNamedWithDot'
-        console.log(obj1.name)
+            const obj1 = {}
+            obj1.name = 'FIRST GIVEN NAME: BallNoMatterIfNamedWithDot'
+            console.log(obj1.name)
+
         // NAME was not there. This ATTRIBUTE is being created dynamically now.
-        obj1['name'] = 'now renamed With Brackets Because Its The Same Object. Dot or brackets make the same result'
+        // Name is an attribute, not a variable or constant.
+        // To become a variable it has to be taken off by "destructuring" (see lesson 22)
+
+            obj1['name'] = 'now renamed With Brackets Because Its The Same Object. Dot or brackets make the same result'
+
         // "this row and the above are equivalents. Dot or brackets make the same result".
-        console.log(obj1.name)
-        console.log(typeof obj1.name)
-        obj1.name = 1
-        console.log(obj1.name)  // THE CONSTANT HERE IS THE OBJECT "obj1", NOT ITS ATTRIBUTES, LIKE "name", which can be changed as desired.
+
+            console.log(obj1.name)
+            console.log(typeof obj1.name)
+            obj1.name = 1
+            console.log(obj1.name) 
+            
+        // THE CONSTANT HERE IS THE OBJECT "obj1", NOT ITS ATTRIBUTES, LIKE "name", which can be changed as desired.
         
 
 console.log('BLANK ROW 2')
 
-        const obj2 = {
-            nome: 'Rick',
-            address: "210, E. Sesame St.",
-            aptNumber: (5*2-5)**2
-        }
-        console.log(obj2)
-        console.log(obj2.nome)
+                    const obj2 = {
+                        nome: 'Rick',
+                        address: "210, E. Sesame St.",
+                        aptNumber: (5*2-5)**2
+                    }
+            console.log(obj2)
+            console.log(obj2.nome)
 
 
 console.log('BLANK ROW 3')
 
-console.log("Now it's a function and an Object")
+            console.log("Now it's a function and an Object")
 
-function Obj(name) {
-    this.name = name // name will become public/visible out of the function. will see this later.
-    // Now an embeded function
-    this.exec = function () {
-        console.log("Formula 1, 2 and 3")
-    }
-}
+            function Obj(name) {
+                this.name = name // name will become public/visible out of the function. will see this later.
+                // Now an embeded function
+                this.exec = function () {
+                    console.log("Formula 1, 2 and 3")
+                }
+            }
 
-const obj3 = new Obj('Chair')
-console.log(obj3)
-console.log(obj3.name)
-obj3.exec()
+            const obj3 = new Obj('Chair')
+            console.log(obj3)
+            console.log(obj3.name)
+            obj3.exec()
 
