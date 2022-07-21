@@ -6,7 +6,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Op
 
 const a = 7 // When I tried to change "a", an error occourred because a is a CONSTANT!*
 let b = 3
-console.log("a = " + a, "b = " + b)
+console.log("a = " + a, ", b = " + b)
 console.log(`a = ${a}, b = ${b}`)
 
 console.log(`a = ${a}, b = ${b}`)
