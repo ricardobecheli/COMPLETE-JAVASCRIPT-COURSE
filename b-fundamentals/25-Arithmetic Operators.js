@@ -7,8 +7,7 @@ console.log(soma)
 const divisao = (a % b) + (c / d) // const!
 console.log(divisao)
 
-let contas = (a*2) + b**2 + (100/c + 100) / d //let!
+let contas = ((a*2) + b**2 - (100/c + 100) / d + 1000 - 0.6666666666667) % 2 //let!
 console.log(contas)
 
-contas = 7
-console.log(contas)
+
