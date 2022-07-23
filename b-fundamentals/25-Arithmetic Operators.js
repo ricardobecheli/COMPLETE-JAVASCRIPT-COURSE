@@ -1,13 +1,13 @@
 // Using destructuring:
 
-let [a, b, c, d] = [13, 5, 1, 15]
+let [a, b, c, d] = [7, 15, 21, 48000]
 const soma = (a + b + c + d)
 console.log(soma)
 
 const divisao = (a % b) + (c / d) // const!
 console.log(divisao)
 
-let contas = ((a*2) + b**2 - (100/c + 100) / d + 1000 - 0.6666666666667) % 2 //let!
+let contas = ((d/c/b/a)/3)
 console.log(contas)
 
 
