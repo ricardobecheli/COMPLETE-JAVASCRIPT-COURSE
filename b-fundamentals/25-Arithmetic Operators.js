@@ -10,7 +10,7 @@ console.log(divisao)
 let contas = ((d/c/b/a)/3)
 console.log(contas)
 
-let [e, f, g, h] = [3*7, 2*2, 4*8, 25/5] // values can be operations or any other type.
+let [e, f, g, h] = [3*7, 2*2, 4*8, 25/2] // values can be operations or any other type.
 const plus = (e+f+g+h)
 console.log(plus)
 
