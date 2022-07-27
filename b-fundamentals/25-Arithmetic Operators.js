@@ -14,4 +14,7 @@ let [e, f, g, h] = [3*7, 2*2, 4*8, 25/2] // values can be operations or any othe
 const plus = (e+f+g+h)
 console.log(plus)
 
+let minus = (e-f-g-h)**2
+console.log(minus)
+
 
