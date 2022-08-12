@@ -1,13 +1,14 @@
  /*  DESTRUCTURING AN OBJECT {}
  
-    I want to have access to 1 or more of these "internal" variables: nome, age, etc.
-    But they're inside an object (this lesson) or an array (next lesson).
+    I want to have access to 1 or more of these "INTERNAL DATA" from the object below, like nome, age, etc, and make them become VARIABLES.
+
+    They're inside an object in this lesson or inside an array (next lesson).
 
     You could say:
 
     - Easy. Just use the dot notation, as follows:
 
-            let nome = person.nome
+            let nome = person.nome 
             const age = person.age
 
     Ok, that is the standard way.
@@ -29,9 +30,10 @@ const person = {
 }
 
 console.log(person) // Object literals are displayed between braces.
-console.table(person) // A table is displayed.
+console.table(person) // A table is displayed in the terminal.
 
-const { nome, age } = person
+const { nome, age } = person // After "const" no name appears to name the constant. Instead, braces mean that a "destructuring" is about to take place.
+
 console.log(nome, age + " | in this row are both constants together in console.log") // Ana, 21
 console.log(nome + " | and now, in this row, one at a time. Here only " + nome) // Ana
 console.log(age + " | and now, in this row, one at a time. Here only " + age) // 21
