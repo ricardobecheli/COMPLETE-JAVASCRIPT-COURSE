@@ -11,11 +11,17 @@
             let nome = person.nome 
             const age = person.age
 
-    Ok, that is the standard way.
+    Ok, that is the standard way:
+
+            First comes the type (let, const or var)
+            After the type, the identifier (the name of the variable),
+            then the equal sign (=, that means "receives")
+            and at last the data itself (the value).
 
     But now we're gonna use the destructuring operator, a simplified way to do the same.
 
-    Note: person here is an OBJECT.
+    Look below this line: "person" here is an OBJECT.
+    The Whole structure and data form this object.
  */
 const person = {
     nome: "Ana",
