@@ -71,3 +71,5 @@ If you try to extract
     const { f1, soccer } = games
 Will resul in error, because there´s no "games" here.
 */
+n = Maria
+console.log(n)
