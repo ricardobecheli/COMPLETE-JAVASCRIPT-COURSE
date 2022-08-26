@@ -71,5 +71,5 @@ If you try to extract
     const { f1, soccer } = games
 Will resul in error, because there´s no "games" here.
 */
-let cooking = 10
-console.log(cooking)
+let stockCar = 10
+console.log(stockCar)
